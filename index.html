@@ -10,17 +10,36 @@
     <title>World Clock</title>
   </head>
   <body>
-    <header>World Clock</header>
-    <footer>
-      This site was coded with ❤️ by
-      <a href="https://peppy-starburst-3356e6.netlify.app" target="_blank"
-        >Tali Berlin</a
-      >
-      and is
-      <a href="https://github.com/taliberlin/world-clock" target="_blank"
-        >open-sourced</a
-      >
-    </footer>
+    <div class="container">
+      <header>World Clock</header>
+      <select name="" id="select-city">
+        <option value="">Choose a city...</option>
+        <option value="los-angeles">🇺🇸 Los Angeles</option>
+        <option value="sydney">🇦🇺 Sydney</option>
+        <option value="tokyo">🇯🇵 Tokyo</option>
+        <option value="paris">🇫🇷 Paris</option>
+      </select>
+      <div class="city">
+        <h2>🇺🇸 Los Angeles</h2>
+        <div>September 26, 2023</div>
+        <div>4:44:15 PM</div>
+      </div>
+      <div class="city">
+        <h2>🇦🇺 Sydney</h2>
+        <div>September 26, 2023</div>
+        <div>4:44:15 PM</div>
+      </div>
+      <footer>
+        This site was coded with ❤️ by
+        <a href="https://peppy-starburst-3356e6.netlify.app" target="_blank"
+          >Tali Berlin</a
+        >
+        and is
+        <a href="https://github.com/taliberlin/world-clock" target="_blank"
+          >open-sourced</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
