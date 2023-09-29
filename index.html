@@ -12,7 +12,7 @@
   <body>
     <div class="container">
       <header>World Clock</header>
-      <select name="" id="select-city">
+      <select class="select-bar" id="select-bar">
         <option value="">Choose a city...</option>
         <option value="los-angeles">🇺🇸 Los Angeles</option>
         <option value="sydney">🇦🇺 Sydney</option>
@@ -20,26 +20,30 @@
         <option value="paris">🇫🇷 Paris</option>
       </select>
       <div class="city">
-        <h2>🇺🇸 Los Angeles</h2>
-        <div>September 26, 2023</div>
-        <div>4:44:15 PM</div>
+        <div class="date">
+          <h2>🇺🇸 Los Angeles</h2>
+          <div>September 26, 2023</div>
+        </div>
+        <div class="time">4:44:15 <small>PM</small></div>
       </div>
       <div class="city">
-        <h2>🇦🇺 Sydney</h2>
-        <div>September 26, 2023</div>
-        <div>4:44:15 PM</div>
+        <div class="date">
+          <h2>🇦🇺 Sydney</h2>
+          <div>September 26, 2023</div>
+        </div>
+        <div class="time">4:44:15 <small>PM</small></div>
       </div>
-      <footer>
-        This site was coded with ❤️ by
-        <a href="https://peppy-starburst-3356e6.netlify.app" target="_blank"
-          >Tali Berlin</a
-        >
-        and is
-        <a href="https://github.com/taliberlin/world-clock" target="_blank"
-          >open-sourced</a
-        >
-      </footer>
     </div>
+    <footer>
+      This site was coded with ❤️ by
+      <a href="https://peppy-starburst-3356e6.netlify.app" target="_blank"
+        >Tali Berlin</a
+      >
+      and is
+      <a href="https://github.com/taliberlin/world-clock" target="_blank"
+        >open-sourced</a
+      >
+    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>
