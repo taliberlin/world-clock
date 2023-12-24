@@ -57,3 +57,17 @@ footer a {
   text-decoration: none;
   color: #0b58bc;
 }
+footer a:hover {
+  text-decoration: underline;
+}
+.back-to-home {
+  font-size: 12px;
+  color: #0b58bc;
+  text-decoration: none;
+  position: relative;
+  top: 7px;
+  left: 10px;
+}
+.back-to-home:hover {
+  text-decoration: underline;
+}

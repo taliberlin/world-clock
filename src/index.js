@@ -46,6 +46,7 @@ function updateCity() {
             "hh:mm:ss [<small>]A[</small>]"
           )}</div>
         </div>
+        <a class="back-to-home" href="/">Back to Home Cities</a>
         `;
   }
 }
