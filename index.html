@@ -12,28 +12,34 @@
   <body>
     <div class="container">
       <header>World Clock</header>
+
       <select class="select-bar" id="select-bar">
         <option value="">Choose a city...</option>
-        <option value="los-angeles">🇺🇸 Los Angeles</option>
-        <option value="sydney">🇦🇺 Sydney</option>
-        <option value="tokyo">🇯🇵 Tokyo</option>
-        <option value="paris">🇫🇷 Paris</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Europe/Paris">Paris</option>
       </select>
-      <div class="city" id="los-angeles">
-        <div class="date">
-          <h2>🇺🇸 Los Angeles</h2>
-          <div>September 26, 2023</div>
+
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div class="date">
+            <h2>Los Angeles</h2>
+            <div></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">4:44:15 <small>PM</small></div>
-      </div>
-      <div class="city" id="sydney">
-        <div class="date">
-          <h2>🇦🇺 Sydney</h2>
-          <div>September 26, 2023</div>
+
+        <div class="city" id="sydney">
+          <div class="date">
+            <h2>Sydney</h2>
+            <div></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">4:44:15 <small>PM</small></div>
       </div>
     </div>
+
     <footer>
       This site was coded with ❤️ by
       <a href="https://peppy-starburst-3356e6.netlify.app" target="_blank"
